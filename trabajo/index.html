@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <h1>BUSCAR POKÉMON</h1>
+    <div class="search-container">
+        <input type="number" id="searchInput" placeholder="Buscar Pokémon..." />
+        <button id="searchButton">
+            <img src="img/lupa.svg" alt="Buscar" />
+        </button>
+    </div>
+    <p id="noResults" class="no-results">No se encontraron resultados.</p>
+
+    <div class="pokeContainer">
+        <div id="pokeContent"></div>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/poke.js"></script>
+</body>
+</html>
